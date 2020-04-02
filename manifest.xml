@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="stuffnodes-github" alias="origin" fetch="."/>
-    <default remote="stuffnodes-github" revision="refs/heads/master"/>
+    <remote name="dynod-github" alias="origin" fetch="."/>
+    <default remote="dynod-github" revision="refs/heads/master"/>
 
     <!-- Tools -->
-    <project path="tools" name="tools" dest-branch="master" groups="tools">
+    <project path="tools/devenv" name="devenv" dest-branch="master" groups="default,tools">
         <linkfile src="Makefile" dest="Makefile"/>
     </project>
 
     <!-- Workspace stuff -->
-    <project path=".workspace" name="workspace" dest-branch="master" groups="tools"/>
+    <project path=".workspace" name="workspace" dest-branch="master" groups="default"/>
 
     <!-- Core -->
     <project path="core/api" name="api" dest-branch="master" groups="notdefault,core"/>
