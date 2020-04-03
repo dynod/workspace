@@ -1,15 +1,15 @@
-# Makefile for some workspce stuff
+# Makefile for some workspace stuff
 
 # Setup roots
 WORKSPACE_ROOT := $(CURDIR)/..
 PROJECT_ROOT := $(CURDIR)
-TOOLS_ROOT := $(WORKSPACE_ROOT)/tools
+DEVENV_ROOT := $(WORKSPACE_ROOT)/tools/devenv
 
 # Main makefile suite - defs
-include $(TOOLS_ROOT)/main.mk
+include $(DEVENV_ROOT)/main.mk
 
 # Default target is stubbed
 default: stub
 
 # Main makefile suite - rules
-include $(TOOLS_ROOT)/rules.mk
+include $(DEVENV_ROOT)/rules.mk
