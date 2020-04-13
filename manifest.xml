@@ -7,7 +7,8 @@
     <project path="tools/devenv" name="devenv" dest-branch="master" groups="default,tools">
         <linkfile src="Makefile" dest="Makefile"/>
     </project>
-    <project path="tools/images" name="images" dest-branch="master" groups="default,tools"/>
+    <project path="tools/images" name="images" dest-branch="master" groups="notdefault,tools"/>
+    <project path="tools/actions/repo-checkout" name="repo-checkout" dest-branch="master" groups="notdefault,tools"/>
 
     <!-- Workspace stuff -->
     <project path=".workspace" name="workspace" dest-branch="master" groups="default"/>
