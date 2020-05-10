@@ -1,6 +1,5 @@
 {
     "_shared": [
-        "devenv",
-        "pytest-multilog"
+        "devenv"
     ]
 }
