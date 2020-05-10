@@ -17,5 +17,5 @@
     </project>
 
     <!-- Core -->
-    <project path="core/api" name="api" dest-branch="master" groups="notdefault,core"/>
+    <project path="core/commons" name="commons" dest-branch="master" groups="notdefault,core"/>
 </manifest>
