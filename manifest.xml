@@ -13,7 +13,7 @@
     <project path="tools/images/devenv" name="devenv-image" dest-branch="master" groups="notdefault,tools"/>
     
     <!-- Sample projects -->
-    <project path="tools/samples/java" name="java-sample" dest-branch="master" groups="notdefault,tools"/>
+    <project path="tools/samples/java" name="sample-java" dest-branch="master" groups="notdefault,tools"/>
     
     <!-- Workspace stuff -->
     <project path=".workspace" name="workspace" dest-branch="master" groups="default">
