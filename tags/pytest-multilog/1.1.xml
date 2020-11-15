@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><manifest>
+    <remote name="dynod-github" alias="origin" fetch="." revision="refs/heads/master"/>
+    <default remote="dynod-github"/>
+
+    <!-- Tools -->
+    <project path="tools/devenv" name="devenv" dest-branch="1.4.3" revision="refs/tags/1.4.3"/>
+    
+    
+    <project path="tools/pytest-multilog" name="pytest-multilog" dest-branch="1.1" revision="refs/tags/1.1"/>
+
+    <!-- Docker images -->
+    
+    
+    <!-- Sample projects -->
+    
+    
+    <!-- Workspace stuff -->
+    <project path=".workspace" name="workspace" dest-branch="pytest-multilog-1.1" revision="refs/tags/pytest-multilog-1.1">
+        <linkfile src="root.mk" dest="Makefile"/>
+    </project>
+
+    <!-- Core -->
+    
+</manifest>
