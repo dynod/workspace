@@ -4,7 +4,9 @@
     <default remote="dynod-github"/>
 
     <!-- APIs -->
-    <project path="apis/grpc-helper" name="grpc-helper-api" revision="refs/heads/main" dest-branch="main" groups="default"/>
+    <project path="apis/grpc-helper" name="grpc-helper-api" revision="refs/heads/main" dest-branch="main" groups="default">
+        <linkfile src="protos/grpc_helper" dest="tools/grpc-helper/protos/test"/>
+    </project>
 
     <!-- Tools -->
     <project path="tools/devenv" name="devenv" dest-branch="master" groups="default,tools"/>
@@ -15,10 +17,10 @@
 
     <!-- Docker images -->
     <project path="tools/images/devenv" name="devenv-image" dest-branch="master" groups="notdefault,tools"/>
-    
+
     <!-- Sample projects -->
     <project path="tools/samples/java" name="sample-java" dest-branch="master" groups="notdefault,tools"/>
-    
+
     <!-- Workspace stuff -->
     <project path=".workspace" name="workspace" dest-branch="master" groups="default">
         <linkfile src="root.mk" dest="Makefile"/>
