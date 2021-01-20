@@ -4,7 +4,7 @@
     <default remote="dynod-github"/>
 
     <!-- APIs -->
-    <project path="apis/grpc-helper" name="grpc-helper-api" dest-branch="master" groups="default"/>
+    <project path="apis/grpc-helper" name="grpc-helper-api" revision="refs/heads/main" dest-branch="main" groups="default"/>
 
     <!-- Tools -->
     <project path="tools/devenv" name="devenv" dest-branch="master" groups="default,tools"/>
