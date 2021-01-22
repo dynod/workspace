@@ -5,7 +5,7 @@
 
     <!-- APIs -->
     <project path="apis/grpc-helper" name="grpc-helper-api" revision="refs/heads/main" dest-branch="main" groups="default">
-        <linkfile src="protos/grpc_helper" dest="tools/grpc-helper/protos/test"/>
+        <linkfile src="protos/grpc_helper" dest="tools/grpc-helper/protos/grpc_helper"/>
     </project>
 
     <!-- Tools -->
