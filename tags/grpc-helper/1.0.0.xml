@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><manifest>
+    <remote name="dynod-github" alias="origin" fetch="." revision="refs/heads/master"/>
+    <default remote="dynod-github"/>
+
+    <!-- APIs -->
+    <project path="apis/grpc-helper" name="grpc-helper-api" revision="refs/tags/1.0" dest-branch="1.0"/>
+
+    <!-- Tools -->
+    <project path="tools/devenv" name="devenv" dest-branch="1.5.1" revision="refs/tags/1.5.1"/>
+    
+    
+    
+    <project path="tools/grpc-helper" name="grpc-helper" revision="refs/tags/1.0.0" dest-branch="1.0.0"/>
+
+    <!-- Docker images -->
+    
+
+    <!-- Sample projects -->
+    
+
+    <!-- Workspace stuff -->
+    <project path=".workspace" name="workspace" dest-branch="grpc-helper-1.0.0" revision="refs/tags/grpc-helper-1.0.0">
+        <linkfile src="root.mk" dest="Makefile"/>
+    </project>
+
+    <!-- Core -->
+    
+</manifest>
