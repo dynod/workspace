@@ -5,6 +5,7 @@
 
     <!-- APIs -->
     <project path="apis/grpc-helper" name="grpc-helper-api" revision="refs/heads/main" dest-branch="main" groups="default"/>
+    <project path="apis/core" name="core-api" dest-branch="master" groups="default"/>
 
     <!-- Tools -->
     <project path="tools/devenv" name="devenv" dest-branch="master" groups="default,tools"/>
@@ -23,7 +24,4 @@
     <project path=".workspace" name="workspace" dest-branch="master" groups="default">
         <linkfile src="root.mk" dest="Makefile"/>
     </project>
-
-    <!-- Core -->
-    <project path="core/commons" name="commons" dest-branch="master" groups="notdefault,core"/>
 </manifest>
