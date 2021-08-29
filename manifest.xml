@@ -20,6 +20,9 @@
     <!-- Sample projects -->
     <project path="tools/samples/java" name="sample-java" dest-branch="master" groups="notdefault,tools"/>
 
+    <!-- Core -->
+    <project path="core/commons" name="core-commons" revision="refs/heads/main" dest-branch="main" groups="notdefault,core"/>
+
     <!-- Workspace stuff -->
     <project path=".workspace" name="workspace" dest-branch="master" groups="default">
         <linkfile src="root.mk" dest="Makefile"/>
