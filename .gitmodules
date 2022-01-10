@@ -1,0 +1,20 @@
+[submodule "api/grpc-helper"]
+	path = api/grpc-helper
+	url = git@github.com:dynod/grpc-helper-api.git
+	branch = main
+[submodule "api/core"]
+	path = api/core
+	url = git@github.com:dynod/core-api.git
+	branch = master
+[submodule "tools/devenv"]
+	path = tools/devenv
+	url = git@github.com:dynod/devenv.git
+	branch = master
+[submodule "tools/grpc-helper"]
+	path = tools/grpc-helper
+	url = git@github.com:dynod/grpc-helper.git
+	branch = main
+[submodule "tools/pytest-multilog"]
+	path = tools/pytest-multilog
+	url = git@github.com:dynod/pytest-multilog.git
+	branch = master

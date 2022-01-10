@@ -3,9 +3,10 @@
 ## Setup
 
 Please run the following commands in the empty directory that will become your workspace:
-- `sudo apt install make repo`
-- `repo init -u git@github.com:dynod/workspace.git -m manifest.xml --config-name`
-- `repo sync`
+- `sudo apt install make git`
+- `git clone git@github.com:dynod/workspace.git -b submodules --recursive -j 8 dynod`
+- `cd dynod`
+- `git submodule update --remote --recursive -j 8`
 
 Then choose the project set you want to work on:
 
