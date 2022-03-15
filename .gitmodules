@@ -17,3 +17,4 @@
 [submodule "tools/nmk"]
 	path = tools/nmk
 	url = git@github.com:dynod/nmk.git
+	branch = main
