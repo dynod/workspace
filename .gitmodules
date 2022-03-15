@@ -5,7 +5,7 @@
 [submodule "api/core"]
 	path = api/core
 	url = git@github.com:dynod/core-api.git
-	branch = master
+	branch = main
 [submodule "tools/grpc-helper"]
 	path = tools/grpc-helper
 	url = git@github.com:dynod/grpc-helper.git
@@ -13,7 +13,7 @@
 [submodule "tools/pytest-multilog"]
 	path = tools/pytest-multilog
 	url = git@github.com:dynod/pytest-multilog.git
-	branch = master
+	branch = main
 [submodule "tools/nmk"]
 	path = tools/nmk
 	url = git@github.com:dynod/nmk.git
