@@ -1,0 +1,10 @@
+config:
+    # Extra metadata for python package
+    pythonSetupCfgFiles:
+        - ${BASEDIR}/metadata.cfg
+
+    # Python versions to be tested on Github
+    githubPythonVersions:
+        - "3.8"
+        - "3.9"
+        - "3.10"
