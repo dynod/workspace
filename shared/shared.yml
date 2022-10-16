@@ -12,3 +12,4 @@ config:
     # Recommended VS Code extensions
     vscodeExtensionsNames:
         - eamodio.gitlens
+        - streetsidesoftware.code-spell-checker
