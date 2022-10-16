@@ -13,3 +13,8 @@ config:
     vscodeExtensionsNames:
         - eamodio.gitlens
         - streetsidesoftware.code-spell-checker
+
+    # Extra keywords for spell check
+    vscodeSettingsItems:
+        cSpell.words:
+            - dynod
