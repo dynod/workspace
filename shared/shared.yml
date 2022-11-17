@@ -14,7 +14,12 @@ config:
         - eamodio.gitlens
         - streetsidesoftware.code-spell-checker
 
-    # Extra keywords for spell check
+    # Extra settings for spell check
     vscodeSettingsItems:
         cSpell.words:
             - dynod
+            - nmk
+        cSpell.allowCompoundWords: true
+        cSpell.enableFiletypes:
+            - yaml
+            - python
