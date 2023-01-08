@@ -19,6 +19,7 @@ config:
         cSpell.words:
             - dynod
             - nmk
+            - pypi
         cSpell.allowCompoundWords: true
         cSpell.enableFiletypes:
             - yaml
