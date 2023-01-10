@@ -3,12 +3,6 @@ config:
     pythonSetupCfgFiles:
         - ${BASEDIR}/metadata.cfg
 
-    # Python versions to be tested on Github
-    githubPythonVersions:
-        - "3.8"
-        - "3.9"
-        - "3.10"
-
     # Recommended VS Code extensions
     vscodeExtensionsNames:
         - eamodio.gitlens
