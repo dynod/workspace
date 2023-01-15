@@ -18,6 +18,3 @@ config:
         cSpell.enableFiletypes:
             - yaml
             - python
-
-    # Github user for all dynod repos
-    githubUser: dynod
