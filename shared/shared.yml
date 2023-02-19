@@ -18,3 +18,6 @@ config:
         cSpell.enableFiletypes:
             - yaml
             - python
+
+    # Shared project author
+    projectAuthor: "The dynod project"
