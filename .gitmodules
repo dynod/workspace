@@ -18,3 +18,7 @@
 	path = tools/nmk
 	url = git@github.com:dynod/nmk.git
 	branch = main
+[submodule "tools/buildenv"]
+	path = tools/buildenv
+	url = git@github.com:dynod/buildenv.git
+	branch = main
