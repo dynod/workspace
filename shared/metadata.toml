@@ -1,0 +1,7 @@
+[project]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/dynod/{{ pythonPackage }}"
+Repository = "https://github.com/dynod/{{ pythonPackage }}"
+Issues = "https://github.com/{{githubUser}}/{{githubIssuesRepo}}/issues?q=is%3Aopen+is%3Aissue{{githubIssuesLabelSuffix}}"

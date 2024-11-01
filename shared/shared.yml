@@ -1,7 +1,7 @@
 config:
     # Extra metadata for python package
-    pythonSetupCfgFiles:
-        - ${BASEDIR}/metadata.cfg
+    pythonProjectFileFragments:
+        - ${BASEDIR}/metadata.toml
 
     # Recommended VS Code extensions
     vscodeExtensionsNames:
@@ -22,3 +22,6 @@ config:
 
     # Shared project author
     projectAuthor: "The dynod project"
+
+    # Python minimum version
+    pythonMinVersion: "3.9"
