@@ -22,3 +22,31 @@
 	path = tools/buildenv
 	url = git@github.com:dynod/buildenv.git
 	branch = main
+[submodule "tools/nmk-base"]
+	path = tools/nmk-base
+	url = git@github.com:dynod/nmk-base.git
+	branch = main
+[submodule "tools/nmk-badges"]
+	path = tools/nmk-badges
+	url = git@github.com:dynod/nmk-badges.git
+	branch = main
+[submodule "tools/nmk-doc"]
+	path = tools/nmk-doc
+	url = git@github.com:dynod/nmk-doc.git
+	branch = main
+[submodule "tools/nmk-github"]
+	path = tools/nmk-github
+	url = git@github.com:dynod/nmk-github.git
+	branch = main
+[submodule "tools/nmk-proto"]
+	path = tools/nmk-proto
+	url = git@github.com:dynod/nmk-proto.git
+	branch = main
+[submodule "tools/nmk-python"]
+	path = tools/nmk-python
+	url = git@github.com:dynod/nmk-python.git
+	branch = main
+[submodule "tools/nmk-vscode"]
+	path = tools/nmk-vscode
+	url = git@github.com:dynod/nmk-vscode.git
+	branch = main
