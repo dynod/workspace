@@ -1,0 +1,8 @@
+refs:
+  - pip://nmk-vscode!plugin.yml
+  - pip://nmk-github!plugin.yml
+  - shared/shared.yml
+
+config:
+  gitIgnoredFiles:
+    - .vscode/
