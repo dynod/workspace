@@ -46,6 +46,10 @@
 	path = tools/nmk-python
 	url = git@github.com:dynod/nmk-python.git
 	branch = main
+[submodule "tools/nmk-python-sample"]
+	path = tools/nmk-python-sample
+	url = git@github.com:dynod/nmk-python-sample.git
+	branch = main
 [submodule "tools/nmk-rust"]
 	path = tools/nmk-rust
 	url = git@github.com:dynod/nmk-rust.git
