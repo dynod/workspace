@@ -1,5 +1,5 @@
 [project]
-license = { file = "LICENSE" }
+license = { text = "{{ githubLicense }}" }
 
 [project.urls]
 Homepage = "https://github.com/dynod/{{ pythonPackage }}"

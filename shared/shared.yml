@@ -22,6 +22,3 @@ config:
 
     # Shared project author
     projectAuthor: "The dynod project"
-
-    # Python minimum version
-    pythonMinVersion: "3.9"
