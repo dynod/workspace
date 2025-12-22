@@ -62,3 +62,7 @@
 	path = tools/nmk-vscode
 	url = git@github.com:dynod/nmk-vscode.git
 	branch = main
+[submodule "tools/nmk-workspace"]
+	path = tools/nmk-workspace
+	url = git@github.com:dynod/nmk-workspace.git
+	branch = main

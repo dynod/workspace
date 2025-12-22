@@ -7,6 +7,7 @@
 #
 
 nmk-base
+nmk-github
 nmk-vscode
 
 
