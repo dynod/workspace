@@ -1,6 +1,7 @@
 refs:
   - pip://nmk-vscode!plugin.yml
   - pip://nmk-github!plugin.yml
+  - pip://nmk-workspace!plugin.yml
   - shared/shared.yml
 
 config:
