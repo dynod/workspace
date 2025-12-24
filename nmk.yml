@@ -7,3 +7,40 @@ refs:
 config:
   gitIgnoredFiles:
     - .vscode/
+
+  # Just build on minimum python version in CI
+  githubPythonVersions:
+    - "3.10"
+
+  # Don't package anything in CI
+  githubPackageCommand: ""
+
+  # Explicitely run build then tests in CI
+  githubCommand: ./buildenv.sh run nmk build tests
+
+  # Disable dirty check at workspace level (and for sub-projects)
+  gitEnableDirtyCheck: false
+  workspaceBuildExtraArgs: --config gitEnableDirtyCheck=${gitEnableDirtyCheck}
+
+  # Exclude subprojects to be built in CI
+  workspaceSubProjectsToExclude:
+    - api/*
+    - tools/buildenv
+    - tools/grpc-helper
+
+  # Skip setup and build stages in CI (since they will be triggered as dependency of build/test stages)
+  workspaceBuildEnabled:
+    setup: false
+
+  # Don't ignore failures for tests
+  workspaceBuildIgnoreFailures:
+    tests: false
+
+tasks:
+  # Fake task to force workspace sync in CI
+  force.sync:
+    if: ${isCIBuild}
+    silent: true
+    deps:
+      - workspace.sync
+    appendToDeps: workspace.setup
