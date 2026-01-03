@@ -1,24 +1,32 @@
 config:
-    # Extra metadata for python package
-    pythonProjectFileFragments:
-        - ${BASEDIR}/metadata.toml
+  # Extra metadata for python package
+  pythonProjectFileFragments:
+    - ${BASEDIR}/metadata.toml
 
-    # Recommended VS Code extensions
-    vscodeExtensionsNames:
-        - eamodio.gitlens
-        - streetsidesoftware.code-spell-checker
+  # Recommended VS Code extensions
+  vscodeExtensionsNames:
+    - eamodio.gitlens
+    - streetsidesoftware.code-spell-checker
 
-    # Extra settings for spell check
-    vscodeSettingsItems:
-        cSpell.words:
-            - dynod
-            - nmk
-            - pypi
-            - buildenv
-        cSpell.allowCompoundWords: true
-        cSpell.enableFiletypes:
-            - yaml
-            - python
+  # Extra settings for spell check
+  vscodeSettingsItems:
+    cSpell.words:
+      - dynod
+      - nmk
+      - pypi
+      - buildenv
+    cSpell.allowCompoundWords: true
+    cSpell.enableFiletypes:
+      - yaml
+      - python
 
-    # Shared project author
-    projectAuthor: "The dynod project"
+  # Shared project author
+  projectAuthor: "The dynod project"
+
+  # Local dependencies for this workspace
+  pythonLocalDepsPatterns:
+    - buildenv
+    - grpc-helper
+    - nmk
+    - nmk-*
+    - pytest-multilog
