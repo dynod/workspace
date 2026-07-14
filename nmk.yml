@@ -36,10 +36,12 @@ config:
   workspaceBuildIgnoreFailures:
     tests: false
 
+  # Toggle workspace sync in CI (to avoid unnecessary syncs on local setup)
+  workspaceSyncEnabled: ${isCIBuild}
+
 tasks:
-  # Fake task to force workspace sync in CI
+  # Fake task to force workspace sync as part of setup
   force.sync:
-    if: ${isCIBuild}
     silent: true
     deps:
       - workspace.sync
